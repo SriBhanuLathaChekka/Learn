@@ -1,0 +1,42 @@
+.course-detail-wrapper {
+  background-color: #433f36;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.course-detail-container {
+  margin-top: 2rem;
+}
+
+.course-detail-header {
+  background: linear-gradient(135deg, #2c2c4e 0%, #1a1a3e 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.course-detail-header h1 {
+  margin-bottom: 1rem;
+}
+
+.course-sticky-card {
+  position: sticky;
+  top: 20px;
+  background: linear-gradient(135deg, #2c2c4e 0%, #1a1a3e 100%);
+  color: white;
+}
+
+.course-sticky-card .card-body {
+  color: white;
+}
+
+.tabs-content {
+  margin-top: 2rem;
+}
+
+.tab-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 0 0 8px 8px;
+}

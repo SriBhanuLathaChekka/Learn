@@ -1,0 +1,20 @@
+.footer {
+  margin-top: 5rem;
+  background-color: #1a1a3e !important;
+  border-top: 3px solid #DAA520;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #DAA520;
+  text-decoration: underline;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+}

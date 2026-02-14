@@ -1,0 +1,62 @@
+.create-course-wrapper {
+  background-color: #ebe9e1;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.create-course-card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: white;
+}
+
+.create-course-card h1 {
+  color: #2c2c4e;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.create-course-card .form-label {
+  color: #333;
+  font-weight: 600;
+}
+
+.create-course-card .form-control,
+.create-course-card .form-select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.75rem;
+}
+
+.create-course-card .form-control:focus,
+.create-course-card .form-select:focus {
+  border-color: #4169E1;
+  box-shadow: 0 0 0 0.2rem rgba(65, 105, 225, 0.25);
+}
+
+.create-course-card .btn {
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+}
+
+.create-course-card .btn-primary {
+  background-color: #4169E1;
+  border-color: #4169E1;
+}
+
+.create-course-card .btn-primary:hover {
+  background-color: #315AC1;
+  border-color: #315AC1;
+}
+
+.create-course-card .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.create-course-card .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
