@@ -45,4 +45,5 @@ export const adminAPI = {
   getStatistics: () => apiClient.get('/admin/stats/enrollments'),
 };
 
+
 export default apiClient;
